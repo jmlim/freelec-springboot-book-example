@@ -1,6 +1,5 @@
 package io.jmlim.freelec.springboot.domain.posts;
 
-import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -12,7 +11,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@Slf4j
+//@Slf4j
 @SpringBootTest
 class PostsRepositoryTest {
 
@@ -62,7 +61,7 @@ class PostsRepositoryTest {
 
         // then
         Posts posts = postsList.get(0);
-        log.info(">>>>>>>>>>>>>>>>>>> createDate={}, modifiedDate={}", posts.getCreatedDate(), posts.getModifiedDate());
+        //log.info(">>>>>>>>>>>>>>>>>>> createDate={}, modifiedDate={}", posts.getCreatedDate(), posts.getModifiedDate());
 
         assertThat(posts.getCreatedDate()).isAfter(now);
         assertThat(posts.getModifiedDate()).isAfter(now);

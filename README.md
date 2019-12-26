@@ -28,3 +28,5 @@ spring.security.oauth2.client.provider.naver.user-info-uri=https://openapi.naver
 ### 기준이 되는 user_name의 이름을 네이버에서는 response로 해야 함. 네이버의 회원 조회 시 반환되는 JSON 형태 때문
 spring.security.oauth2.client.provider.naver.user_name_attribute=response
 ~~~
+
+ > 시큐리티 적용 후 Post 수정 테스트 코드 작성까지 해봄.. 
