@@ -29,4 +29,3 @@ spring.security.oauth2.client.provider.naver.user-info-uri=https://openapi.naver
 spring.security.oauth2.client.provider.naver.user_name_attribute=response
 ~~~
 
- > 시큐리티 적용 후 Post 수정 테스트 코드 작성까지 해봄.. 
