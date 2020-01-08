@@ -1,7 +1,6 @@
 ### freelec 스프링 부트로 구현하는 웹 서비스 책 따라해보기
 
 - boot 와 JUnit 만 최신껄로 올림.
-- 스프링 부트 와이프 가르쳐주기 용도로 딱인듯.
 
 ### application-oauth.properties 
 
